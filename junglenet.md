@@ -1,7 +1,7 @@
 # 정글 테스트넷 설치하기
 
 ## 요구사항
-- 우분투 18.04 LTS
+- [우분투 18.04 LTS](https://www.ubuntu.com/download/server)
 
 ## 정글넷 깃허브
 - https://github.com/CryptoLions/EOS-Jungle-Testnet
