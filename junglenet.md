@@ -30,3 +30,13 @@ $ sudo ./installJungle-testnode1111.sh
 ## 정글넷 최신 스냅샷 주소
 - http://backup.jungletestnet.io/ubuntu18/blocks-latest.tar.gz
 - http://backup.jungletestnet.io/ubuntu18/state-latest.tar.gz
+
+## 노드 실행
+설치가 완료되면 JungleTestnet-계정명으로 디렉토리가 생성된다. (sudo 로 설치하여 권한이 root로 되어있는데 본인의 계정으로 바꿔준다)
+```
+$ cd JungleTestnet-xxxxx
+$ ./start.sh --delete-all-blocks --genesis-json genesis.json | tail -f stderr.txt
+```
+
+## 트러블 슈팅
+- 노드를 실행하면 http 플러그인 관련 에러가 날 수 있는데 `config.ini`에서 https 관련 설정을 주석처리한다.
